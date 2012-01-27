@@ -2,5 +2,10 @@ Changes
 MANIFEST
 Makefile.PL
 README
-test.pl
-vars.pm
+t/original.t
+t/tie.t
+t/const.t
+t/import.t
+lib/ex/constant/vars.pm
+META.yml                                 Module YAML meta-data (added by MakeMaker)
+META.json                                Module JSON meta-data (added by MakeMaker)
