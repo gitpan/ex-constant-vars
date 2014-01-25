@@ -4,10 +4,8 @@ author:
   - unknown
 build_requires:
   ExtUtils::MakeMaker: 0
-configure_requires:
-  ExtUtils::MakeMaker: 0
 dynamic_config: 1
-generated_by: 'ExtUtils::MakeMaker version 6.68, CPAN::Meta::Converter version 2.131560'
+generated_by: 'ExtUtils::MakeMaker version 6.82, CPAN::Meta::Converter version 2.133380'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -20,6 +18,9 @@ no_index:
 requires:
   Carp: 0
   Exporter: 0
+  perl: 5.006
+  strict: 0
+  warnings: 0
 resources:
-  repository: https://github.com/neilbowers/ex-constant-vars
-version: 0.04
+  repository: git://github.com/neilbowers/ex-constant-vars.git
+version: 0.05
